@@ -1,0 +1,9 @@
+[project]
+name = "futurebridge-ai-service"
+version = "0.0.1"
+description = "RAG intelligence service for FutureBridge AI"
+requires-python = ">=3.12,<3.13"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
